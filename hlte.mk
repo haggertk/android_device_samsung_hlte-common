@@ -81,6 +81,9 @@ PRODUCT_PACKAGES += \
     libxml2 \
     Snap
 
+# HIDL
+DEVICE_MANIFEST_FILE := $(LOCAL_PATH)/manifest.xml
+
 # Input device
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
