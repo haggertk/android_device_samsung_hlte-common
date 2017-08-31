@@ -355,6 +355,9 @@ vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
+# RIL Dependency
+lib/libstlport.so|18eddd8686b52696f7beba833938b93a43d6bab1
+
 # Sensors
 lib/hw/sensorhubs.msm8974.so
 lib/hw/sensors.msm8974.so
